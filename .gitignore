@@ -1,0 +1,6 @@
+/target
+scripts/.venv/
+.venv/
+.DS_Store
+.idea/
+*.lock

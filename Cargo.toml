@@ -1,0 +1,16 @@
+[package]
+name = "wintypes"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ntapi = { version = "0.4", features = ["impl-default", "kernel"] }
+winapi = { version = "0.3", features = ["ntdef", "libloaderapi", "winnt", "minwindef", "winuser", "processthreadsapi", "everything", "winefs", "ntlsa", "accctrl", "wct", "wincred", "wincrypt", "winsvc", "ncrypt", "timezoneapi", "winbase", "appmgmt", "lsalookup", "mschapp", "perflib", "winreg", "winsafer", "aclapi", "vadefs", "bcrypt", "basetsd", "evntprov", "mssip", "dpapi", "winhttp", "mstcpip", "ktmtypes", "vcruntime", "winnls", "synchapi", "wincontypes", "fileapi", "memoryapi", "threadpoolapiset", "psapi", "sysinfoapi", "wincon", "heapapi", "processsnapshot", "errhandlingapi", "werapi", "tlhelp32", "jobapi2", "mmsystem"] }
+
+[features]
+advapi32 = []
+crypt32 = []
+kernel32 = []
+kernelbase = []
+winhttp = []
+ntdll = []
