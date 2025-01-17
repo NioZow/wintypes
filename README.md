@@ -7,7 +7,7 @@
 Once this library is downloaded you can just use a function as a type by DLL:
 
 ```rust
-use wintypes::user32::MessageBoxA;
+use wintypes::user32::FnMessageBoxA;
 ```
 
 # Build
