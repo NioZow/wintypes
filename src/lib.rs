@@ -18,3 +18,5 @@ pub mod winhttp;
 
 #[cfg(feature = "ntdll")]
 pub mod ntdll;
+
+pub mod types;

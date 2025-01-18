@@ -11,7 +11,7 @@ repository = "https://github.com/NioZow/wintypes"
 
 [dependencies]
 ntapi = { version = "0.4", features = ["impl-default", "kernel"] }
-winapi = { version = "0.3", features = ["ntdef", "libloaderapi", "winnt", "minwindef", "winuser", "processthreadsapi", "everything", "winefs", "ntlsa", "accctrl", "wct", "wincred", "wincrypt", "winsvc", "ncrypt", "timezoneapi", "winbase", "appmgmt", "lsalookup", "mschapp", "perflib", "winreg", "winsafer", "aclapi", "vadefs", "bcrypt", "basetsd", "evntprov", "mssip", "dpapi", "winhttp", "mstcpip", "ktmtypes", "vcruntime", "winnls", "synchapi", "wincontypes", "fileapi", "memoryapi", "threadpoolapiset", "psapi", "sysinfoapi", "wincon", "heapapi", "processsnapshot", "errhandlingapi", "werapi", "tlhelp32", "jobapi2", "mmsystem"] }
+winapi = { version = "0.3", features = ["ntdef", "libloaderapi", "winnt", "minwindef", "winuser", "processthreadsapi", "everything", "winefs", "ntlsa", "accctrl", "wct", "wincred", "wincrypt", "winsvc", "ncrypt", "timezoneapi", "winbase", "appmgmt", "lsalookup", "mschapp", "perflib", "winreg", "winsafer", "aclapi", "vadefs", "bcrypt", "basetsd", "evntprov", "mssip", "dpapi", "winhttp", "mstcpip", "ktmtypes", "vcruntime", "winnls", "synchapi", "wincontypes", "fileapi", "memoryapi", "threadpoolapiset", "psapi", "sysinfoapi", "wincon", "heapapi", "processsnapshot", "errhandlingapi", "werapi", "tlhelp32", "jobapi2", "mmsystem", "wingdi"] }
 
 [features]
 advapi32 = []
@@ -21,3 +21,13 @@ kernelbase = []
 winhttp = []
 ntdll = []
 user32 = []
+
+all = [
+    "advapi32",
+    "crypt32",
+    "kernel32",
+    "kernelbase",
+    "winhttp",
+    "ntdll",
+    "user32"
+]
