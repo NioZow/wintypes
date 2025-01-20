@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.3] - 2025-01-20
+
+### Added
+
+- Support for safe UNICODE_STRING (S_UNICODE_STRING)
+
 ## [0.1.2] - 2025-01-18
 
 ### Fixed

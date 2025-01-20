@@ -1,6 +1,6 @@
 [package]
 name = "wintypes"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2021"
 authors = ["NioZ"]
 description = "A rust library that exports windows functions as types"
