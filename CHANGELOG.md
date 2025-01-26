@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.4] - 2025-01-26
+
+### Added
+
+- Support for 16 aligned CONTEXT structure.
+
 ## [0.1.3] - 2025-01-20
 
 ### Added
